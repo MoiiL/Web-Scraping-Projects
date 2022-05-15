@@ -38,7 +38,7 @@ def getlocationid(city):
   city = city.lower()
   location_url = 'https://locator-service.api.bbci.co.uk/locations?' + urlencode ({
      'api-key' : 'AGbFAKx58hyjQScCXIYrxuEwJh2W2cmv',
-     's' : test-city ,
+     's' : city ,
      'stack' : 'aws' ,
      'locale' : 'en' ,
      'filter' : 'international' ,
