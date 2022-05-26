@@ -2,7 +2,7 @@
 
 #importing the required libraries 
 import os
-import requests      # retrieving the webpages
+import requests      # retrieving the webpages / fetching HTML codes 
 import json          # converting the API to a json format
 
 from urllib.parse import urlencode     #provide structure to the API url
