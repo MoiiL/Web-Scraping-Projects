@@ -1,10 +1,11 @@
 # Weather scraping using Python from BBC weather website
 
+#importing the required libraries 
 import os
-import requests
-import json
+import requests      # retrieving the webpages
+import json          # converting the API to a json format
 
-from urllib.parse import urlencode
+from urllib.parse import urlencode     #provide structure to the API url
 
 import numpy as np
 import pandas as pd
